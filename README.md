@@ -57,14 +57,14 @@ return [
 
 Released under the MIT License, see [LICENSE](LICENSE).
 
-[ico-version]: https://img.shields.io/github/release/gashey/laravel-mobiverse-ussd.svg?style=flat-square
+[ico-version]: https://img.shields.io/github/release/gashey/botman-ussd-driver.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/gashey/laravel-mobiverse-ussd.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/gashey/laravel-mobiverse-ussd.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/gashey/laravel-mobiverse-ussd.svg?style=flat-square
-[link-packagist]: https://packagist.org/packages/gashey/laravel-mobiverse-ussd
-[link-scrutinizer]: https://scrutinizer-ci.com/g/gashey/laravel-mobiverse-ussd/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/gashey/laravel-mobiverse-ussd
-[link-downloads]: https://packagist.org/packages/gashey/laravel-mobiverse-ussd
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/gashey/botman-ussd-driver.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/gashey/botman-ussd-driver.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/gashey/botman-ussd-driver.svg?style=flat-square
+[link-packagist]: https://packagist.org/packages/gashey/botman-ussd-driver
+[link-scrutinizer]: https://scrutinizer-ci.com/gashey/botman-ussd-driver/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/gashey/botman-ussd-driver
+[link-downloads]: https://packagist.org/packages/gashey/botman-ussd-driver
 [link-author]: https://github.com/gashey
 [link-contributors]: ../../contributors
