@@ -38,7 +38,7 @@ You can use the [Mobiverse USSD Simulator](https://apps.mobivs.com/USSDSIM/) to 
 
 ## Configuration
 
-The defaults are set in `config/ussd.php`. Publish the config using this command:
+The defaults are set in `config/botman/ussd.php`. Publish the config using this command:
 
 ```sh
 $ php artisan vendor:publish --provider="Gashey\BotmanUssdDriver\UssdServiceProvider"
