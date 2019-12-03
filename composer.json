@@ -1,0 +1,40 @@
+{
+    "name": "gashey/botman-ussd-driver",
+    "type": "library",
+    "description": "Botman USSD Driver for Laravel Projects",
+    "keywords": [
+        "php",
+        "laravel",
+        "botman",
+        "ussd",
+        "driver"
+    ],
+    "homepage": "https://github.com/gashey/botman-ussd-driver",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "George Kofi Hagan",
+            "email": "georgekhagan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.3",
+        "nesbot/carbon": "^2.18"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "phpunit/phpunit": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gashey\\BotmanUssdDriver\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gashey\\BotmanUssdDriver\\UssdServiceProvider"
+            ]
+        }
+    }
+}
