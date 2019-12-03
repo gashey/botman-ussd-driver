@@ -15,7 +15,6 @@ use BotMan\BotMan\Messages\Incoming\IncomingMessage;
 use BotMan\BotMan\Messages\Outgoing\OutgoingMessage;
 use Gashey\BotmanUssdDriver\Lib\UssdRequest;
 use Gashey\BotmanUssdDriver\Lib\UssdResponse;
-use Illuminate\Support\Facades\Log;
 
 class UssdDriver extends HttpDriver
 {
@@ -40,7 +39,6 @@ class UssdDriver extends HttpDriver
     {
         $this->payload = new ParameterBag((array) $request->request->all());
         $this->event = Collection::make((array) $this->payload->all());
-        // $this->signature = $request->headers->get('X_HUB_SIGNATURE', '');
         $this->content = $request->getContent();
         $this->config = Collection::make($this->config->get('ussd', []));
     }
