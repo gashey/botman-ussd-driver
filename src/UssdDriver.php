@@ -66,7 +66,8 @@ class UssdDriver extends HttpDriver
             $message = $this->event->get('ussdServiceOp') == UssdRequest::RELEASE ?
                 $this->config->get("cancel_text", "stop") : $this->event->get('ussdString');
             $userId = $this->event->get('msisdn');
-            $this->messages = [new IncomingMessage($message, $userId, $userId, $this->payload)];
+            $sessionId = $this->event->get('sessionID');
+            $this->messages = [new IncomingMessage($message, $sessionId, $userId, $this->payload)];
         }
         return $this->messages;
     }
